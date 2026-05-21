@@ -1,0 +1,125 @@
+{
+  "seizoenen": {
+    "lente": {
+      "start_date": "2025-03-25",
+      "end_date": "2025-04-22",
+      "korte_broek_drempel_boy": 15,
+      "korte_broek_drempel_girl": 15,
+      "t_shirt_drempel": 15
+    },
+    "zomer": {
+      "start_date": "2025-04-22",
+      "end_date": "2025-09-18",
+      "korte_broek_drempel_boy": 14,
+      "korte_broek_drempel_girl": 14,
+      "t_shirt_drempel": 16
+    },
+    "herfst": {
+      "start_date": "2025-09-18",
+      "end_date": "2025-10-15",
+      "korte_broek_drempel_boy": 16,
+      "korte_broek_drempel_girl": 16,
+      "t_shirt_drempel": 14
+    },
+    "winter": {
+      "start_date": "2025-10-15",
+      "end_date": "2026-03-25",
+      "korte_broek_drempel_boy": 18,
+      "korte_broek_drempel_girl": 18,
+      "t_shirt_drempel": 12
+    }
+  },
+  "drempels": {
+    "twee_stage_drempel": 8,
+    "muts_drempel": 5,
+    "wanten_drempel": 0,
+    "sjaal_drempel": 5,
+    "pet_uv_drempel": 5,
+    "zonnebrand_uv_drempel": 6,
+    "legging_60den_range": "10-15",
+    "legging_100den_range": "5-10"
+  },
+  "jas_logica": {
+    "geen_jas": {
+      "temp_min": 18,
+      "emoji": "☀️",
+      "label": "Geen jas nodig",
+      "subtext": "Lekker warm!"
+    },
+    "vest": {
+      "temp_min": 14,
+      "temp_max": 18,
+      "emoji": "🧶",
+      "label": "Vest of dunne trui",
+      "subtext": "Lekker mild"
+    },
+    "tussenjas": {
+      "temp_min": 10,
+      "temp_max": 14,
+      "emoji": "🧥",
+      "label": "Tussenjas",
+      "subtext": "Lekker mild vandaag"
+    },
+    "winterjas": {
+      "temp_min": 5,
+      "temp_max": 10,
+      "emoji": "🧥",
+      "label": "Winterjas",
+      "subtext": "Goed dichtritsen!"
+    },
+    "regenjas": {
+      "emoji": "🧥",
+      "label": "Regenjas",
+      "subtext": "Regen verwacht!"
+    }
+  },
+  "schoenen_logica": {
+    "sneakers": {
+      "emoji": "👟",
+      "label": "Sneakers",
+      "subtext": "Prima keuze!"
+    },
+    "slippers": {
+      "emoji": "🩴",
+      "label": "Slippers of sandalen",
+      "subtext": "Lekker koel!",
+      "temp_min": 24
+    },
+    "regenlaarzen": {
+      "emoji": "🥾",
+      "label": "Regenlaarzen",
+      "subtext": "Dan blijven je voeten droog!"
+    },
+    "warme_schoenen": {
+      "emoji": "🥾",
+      "label": "Warme schoenen",
+      "subtext": "Dikke sokken erbij!",
+      "temp_max": 2
+    }
+  },
+  "accessories": {
+    "muts": {
+      "emoji": "🧢",
+      "label": "Muts",
+      "subtext": "Oren warm houden!",
+      "seizoen": ["winter", "herfst"]
+    },
+    "wanten": {
+      "emoji": "🧤",
+      "label": "Wanten",
+      "subtext": "Vingers warm houden!",
+      "seizoen": ["winter"]
+    },
+    "sjaal": {
+      "emoji": "🧣",
+      "label": "Sjaal",
+      "subtext": "Nek warm houden!",
+      "seizoen": ["winter"]
+    },
+    "pet": {
+      "emoji": "🧢",
+      "label": "Pet",
+      "subtext": "Tegen de zon"
+    }
+  }
+}
